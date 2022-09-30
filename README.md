@@ -41,7 +41,7 @@ In your `Info.plist`:
 | :--------------------- | :-------: | :---------: | :------------------------- |
 | title                  | `Sign in` |  `string`   | Title for biometric prompt |
 | cancelButtonText       |  `close`  |  `string`   | Cancel button text         |
-| image                  |    ``     | `imageType` | Image to display           |
+| image                  |    ``     | `ImageSourcePropType` | Image to display           |
 | onVerify               |     -     | `Function`  | Return success callback    |
 | imageStyle             |    ``     |     {}      | Image style                |
 | allowDeviceCredentials |  `false`  |  `Boolean`  | Enable Device Credentials  |
